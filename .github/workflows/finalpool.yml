@@ -1,0 +1,27 @@
+name: Build finalpool
+on:
+  push:
+    branches: [finalpool-builder]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch developer branches
+        run: git fetch origin '+refs/heads/*:refs/remotes/origin/*'
+      - name: Extract implemented tasks
+        run: python3 .github/finalpool/build_finalpool.py .github/finalpool/manifest.json /tmp/finalpool_tasks
+      - name: Create finalpool branch from main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B finalpool origin/main
+          mkdir -p tasks/finalpool
+          cp -a /tmp/finalpool_tasks/. tasks/finalpool/
+          git add tasks/finalpool
+          git commit -m "Add implemented tasks to tasks/finalpool"
+          git push -f origin finalpool

@@ -1,0 +1,382 @@
+[
+  {
+    "name": "activity-logger",
+    "branch": "lueyang-dev",
+    "source": "tasks/lueyang/activity-logger/"
+  },
+  {
+    "name": "alert-system",
+    "branch": "yuzhen-dev",
+    "source": "tasks/yuzhen/alert-system/"
+  },
+  {
+    "name": "analytics-dashboard",
+    "branch": "lv",
+    "source": "tasks/lv/analytics-dashboard/"
+  },
+  {
+    "name": "asset-optimizer",
+    "branch": "yuxuan-dev",
+    "source": "tasks/yuxuan/asset-optimizer/"
+  },
+  {
+    "name": "backup-utility",
+    "branch": "xiaochen_dev",
+    "source": "tasks/xiaochen/backup-utility/"
+  },
+  {
+    "name": "blog-engine",
+    "branch": "gyy",
+    "source": "tasks/gyy/blog-engine/"
+  },
+  {
+    "name": "booking-system",
+    "branch": "junteng_dev",
+    "source": "tasks/junteng/booking-system/"
+  },
+  {
+    "name": "cache-optimizer",
+    "branch": "wenshuo-dev",
+    "source": "tasks/wenshuo/cache-optimizer/"
+  },
+  {
+    "name": "calendar-sync",
+    "branch": "junteng_dev",
+    "source": "tasks/junteng/calendar-sync/"
+  },
+  {
+    "name": "canvas-automation",
+    "branch": "ruige",
+    "source": "tasks/ruige/canvas-automation/"
+  },
+  {
+    "name": "canvas-grade-automation",
+    "branch": "jl_dev",
+    "source": "tasks/jl/canvas-grade-automation/"
+  },
+  {
+    "name": "certificate-manager",
+    "branch": "zhaochen",
+    "source": "tasks/zhaochen/certificate-manager/"
+  },
+  {
+    "name": "chat-bot",
+    "branch": "lv",
+    "source": "tasks/lv/chat-bot/"
+  },
+  {
+    "name": "cms-builder",
+    "branch": "gyy",
+    "source": "tasks/gyy/cms-builder/"
+  },
+  {
+    "name": "contact-manager",
+    "branch": "junteng_dev",
+    "source": "tasks/junteng/contact-manager/"
+  },
+  {
+    "name": "content-manager",
+    "branch": "yuxuan-dev",
+    "source": "tasks/yuxuan/content-manager/"
+  },
+  {
+    "name": "content-scheduler",
+    "branch": "gyy",
+    "source": "tasks/gyy/content-scheduler/"
+  },
+  {
+    "name": "coupon-manager",
+    "branch": "fan-dev",
+    "source": "tasks/fan/coupon-manager/"
+  },
+  {
+    "name": "crm-system",
+    "branch": "lueyang-dev",
+    "source": "tasks/lueyang/crm-system/"
+  },
+  {
+    "name": "customer-feedback-processor",
+    "branch": "jl_dev",
+    "source": "tasks/jl/customer-feedback-processor/"
+  },
+  {
+    "name": "data-analytics",
+    "branch": "ruige",
+    "source": "tasks/ruige/data-analytics/"
+  },
+  {
+    "name": "data-validator",
+    "branch": "yuzhen-dev",
+    "source": "tasks/yuzhen/data-validator/"
+  },
+  {
+    "name": "deal-manager",
+    "branch": "lueyang-dev",
+    "source": "tasks/lueyang/deal-manager/"
+  },
+  {
+    "name": "deployment-tool",
+    "branch": "xiaochen_dev",
+    "source": "tasks/xiaochen/deployment-tool/"
+  },
+  {
+    "name": "discount-calculator",
+    "branch": "fan-dev",
+    "source": "tasks/fan/discount-calculator/"
+  },
+  {
+    "name": "email-campaign",
+    "branch": "lueyang-dev",
+    "source": "tasks/lueyang/email-campaign/"
+  },
+  {
+    "name": "email-classification-system",
+    "branch": "jl_dev",
+    "source": "tasks/jl/email-classification-system/"
+  },
+  {
+    "name": "error-tracker",
+    "branch": "xiaochen_dev",
+    "source": "tasks/xiaochen/error-tracker/"
+  },
+  {
+    "name": "expense-tracker",
+    "branch": "ruige",
+    "source": "tasks/ruige/expense-tracker/"
+  },
+  {
+    "name": "feedback-collector",
+    "branch": "lv",
+    "source": "tasks/lv/feedback-collector/"
+  },
+  {
+    "name": "file-manager",
+    "branch": "ruige",
+    "source": "tasks/ruige/file-manager/"
+  },
+  {
+    "name": "follow-up-reminder",
+    "branch": "lueyang-dev",
+    "source": "tasks/lueyang/follow-up-reminder/"
+  },
+  {
+    "name": "form-builder",
+    "branch": "yuzhen-dev",
+    "source": "tasks/yuzhen/form-builder/"
+  },
+  {
+    "name": "health-monitor",
+    "branch": "xiaochen_dev",
+    "source": "tasks/xiaochen/health-monitor/"
+  },
+  {
+    "name": "help-desk",
+    "branch": "junteng_dev",
+    "source": "tasks/junteng/help-desk/"
+  },
+  {
+    "name": "image-processor",
+    "branch": "wenshuo-dev",
+    "source": "tasks/wenshuo/image-processor/"
+  },
+  {
+    "name": "inventory-management",
+    "branch": "jl_dev",
+    "source": "tasks/jl/inventory-management/"
+  },
+  {
+    "name": "invoice-generator",
+    "branch": "yuzhen-dev",
+    "source": "tasks/yuzhen/invoice-generator/"
+  },
+  {
+    "name": "load-balancer",
+    "branch": "zhaochen",
+    "source": "tasks/zhaochen/load-balancer/"
+  },
+  {
+    "name": "log-analyzer",
+    "branch": "ruige",
+    "source": "tasks/ruige/log-analyzer/"
+  },
+  {
+    "name": "loyalty-program",
+    "branch": "fan-dev",
+    "source": "tasks/fan/loyalty-program/"
+  },
+  {
+    "name": "media-organizer",
+    "branch": "haoze",
+    "source": "tasks/haoze/media-organizer/"
+  },
+  {
+    "name": "monitoring-agent",
+    "branch": "xiaochen_dev",
+    "source": "tasks/xiaochen/monitoring-agent/"
+  },
+  {
+    "name": "network-analyzer",
+    "branch": "yuxuan-dev",
+    "source": "tasks/yuxuan/network-analyzer/"
+  },
+  {
+    "name": "order-processor",
+    "branch": "junteng_dev",
+    "source": "tasks/junteng/order-processor/"
+  },
+  {
+    "name": "payment-processor",
+    "branch": "yuzhen-dev",
+    "source": "tasks/yuzhen/payment-processor/"
+  },
+  {
+    "name": "pdf-report-generator",
+    "branch": "jl_dev",
+    "source": "tasks/jl/pdf-report-generator/"
+  },
+  {
+    "name": "permission-manager",
+    "branch": "yuzhen-dev",
+    "source": "tasks/yuzhen/permission-manager/"
+  },
+  {
+    "name": "personalization-service",
+    "branch": "lv",
+    "source": "tasks/lv/personalization-service/"
+  },
+  {
+    "name": "price-tracker",
+    "branch": "fan-dev",
+    "source": "tasks/fan/price-tracker/"
+  },
+  {
+    "name": "product-catalog",
+    "branch": "junteng_dev",
+    "source": "tasks/junteng/product-catalog/"
+  },
+  {
+    "name": "qr-generator",
+    "branch": "junxian_dev",
+    "source": "tasks/junxian/qr-generator/"
+  },
+  {
+    "name": "reminder-service",
+    "branch": "junteng_dev",
+    "source": "tasks/junteng/reminder-service/"
+  },
+  {
+    "name": "robots-handler",
+    "branch": "gyy",
+    "source": "tasks/gyy/robots-handler/"
+  },
+  {
+    "name": "sales-pipeline",
+    "branch": "lueyang-dev",
+    "source": "tasks/lueyang/sales-pipeline/"
+  },
+  {
+    "name": "scheduler",
+    "branch": "wenshuo-dev",
+    "source": "tasks/wenshuo/scheduler/"
+  },
+  {
+    "name": "search-engine",
+    "branch": "wenshuo-dev",
+    "source": "tasks/wenshuo/search-engine/"
+  },
+  {
+    "name": "security-scanner",
+    "branch": "xiaochen_dev",
+    "source": "tasks/xiaochen/security-scanner/"
+  },
+  {
+    "name": "sentiment-analyzer",
+    "branch": "lv",
+    "source": "tasks/lv/sentiment-analyzer/"
+  },
+  {
+    "name": "shipment-tracker",
+    "branch": "junteng_dev",
+    "source": "tasks/junteng/shipment-tracker/"
+  },
+  {
+    "name": "social-connector",
+    "branch": "junxian_dev",
+    "source": "tasks/junxian/social-connector/"
+  },
+  {
+    "name": "social-publisher",
+    "branch": "gyy",
+    "source": "tasks/gyy/social-publisher/"
+  },
+  {
+    "name": "status-checker",
+    "branch": "xiaochen_dev",
+    "source": "tasks/xiaochen/status-checker/"
+  },
+  {
+    "name": "storage-manager",
+    "branch": "zhaochen",
+    "source": "tasks/zhaochen/storage-manager/"
+  },
+  {
+    "name": "streaming-service",
+    "branch": "haoze",
+    "source": "tasks/haoze/streaming-service/"
+  },
+  {
+    "name": "subtitle-generator",
+    "branch": "haoze",
+    "source": "tasks/haoze/subtitle-generator/"
+  },
+  {
+    "name": "survey-builder",
+    "branch": "lv",
+    "source": "tasks/lv/survey-builder/"
+  },
+  {
+    "name": "sync-service",
+    "branch": "yuxuan-dev",
+    "source": "tasks/yuxuan/sync-service/"
+  },
+  {
+    "name": "tag-manager",
+    "branch": "gyy",
+    "source": "tasks/gyy/tag-manager/"
+  },
+  {
+    "name": "task-scheduler",
+    "branch": "yuxuan-dev",
+    "source": "tasks/yuxuan/task-scheduler/"
+  },
+  {
+    "name": "template-engine",
+    "branch": "zhaochen",
+    "source": "tasks/zhaochen/template-engine/"
+  },
+  {
+    "name": "territory-manager",
+    "branch": "lueyang-dev",
+    "source": "tasks/lueyang/territory-manager/"
+  },
+  {
+    "name": "translation-api",
+    "branch": "junxian_dev",
+    "source": "tasks/junxian/translation-api/"
+  },
+  {
+    "name": "video-trimmer",
+    "branch": "haoze",
+    "source": "tasks/haoze/video-trimmer/"
+  },
+  {
+    "name": "voice-processor",
+    "branch": "lv",
+    "source": "tasks/lv/voice-processor/"
+  },
+  {
+    "name": "web-crawler",
+    "branch": "ruige",
+    "source": "tasks/ruige/web-crawler/"
+  }
+]
